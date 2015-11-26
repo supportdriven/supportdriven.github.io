@@ -98,6 +98,11 @@ body {
 	color:#e74c3c;
 }
 
+/* DETAIL */
+
+#detail h3 {
+	color:#e74c3c;
+}
 
 /* SPEAKER */
 
@@ -152,36 +157,6 @@ body {
 	color:#888888;
 }
 
-
-/* SCHEDULE */
-
-.event h3 {
-	color:#e74c3c;
-}
-
-.event .icon {
-	color:#ffffff;
-	background:#e74c3c;
-}
-
-.event .description {
-	background:#efefef;
-
-}
-
-
-/* Schedule Pagination */
-
-#days .item {
-	background:#efefef;
-}
-
-#days .item:hover,
-#days .item:active {
-	color:#ffffff;
-	background:#e74c3c;
-}
-
 /* VENUE */
 
 .venue-address {
@@ -206,13 +181,6 @@ body {
 }
 
 
-/* TESTIMONIAL */
-
-#testimonial {
-	color:#ffffff;
-}
-
-
 /* SPONSOR */
 
 #sponsors h3 {
@@ -222,24 +190,8 @@ body {
 
 /* SUBSCRIBE */
 
-#subscribe {
-	color:#ffffff;
-}
-
-#subscribe input {
-	color:#ffffff;
-	background:rgba(255,255,255, 0.30);
-	border:1px solid #ffffff;
-}
-
-/* FAQ - GALLERY */
-
-#faq-gallery {
-	background:#ececec;
-}
-
-#faq i {
-	color:#e74c3c;
+#subscribe h3 {
+	color:#999999;
 }
 
 /* REGISTER */
@@ -248,32 +200,6 @@ body {
 	color:#ffffff;
 	/*background:#efefef;*/
 }
-
-.price-table-header {
-	color:#ffffff;
-	background:#e74c3c;
-}
-
-.price-table-description {
-	background:#ffffff;
-}
-
-.description-item {
-	color:#2e2e2e;
-}
-
-.price-table-description .stripe {
-	color:#ffffff;
-	background:#e74c3c;
-}
-
-
-/* register form */
-
-#register-form {
-	background:#ffffff;
-}
-
 
 /* CONTACT */
 
@@ -292,6 +218,15 @@ body {
 
 .social a:hover{
 	color:rgba(255, 255, 255, 1);
+}
+
+/* FOOTER */
+#footer a,
+#footer a:link,
+#footer a:active,
+#footer a:visited,
+#footer a:hover {
+    color: #e74c3c;
 }
 
 
