@@ -20,7 +20,7 @@ section {
 
 h2 {
     font-family: 'BebasNeue', sans-serif;
-    font-size: 4em;
+    font-size: 3.2em;
     margin-top: 0;
     margin-bottom: 40px;
     letter-spacing: 2px;
@@ -95,7 +95,7 @@ h4 {
 
 #top h3 {
     margin: 0;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 /* Countdown */
