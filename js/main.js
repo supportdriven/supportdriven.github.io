@@ -204,44 +204,12 @@ $(window).load(function(){
 
 };
 
-	/* Newsletter Functions */
-	var newsletter_send = function(){
-	
-		'use strict';
-		
-		var email 	= $("#newsletter_email").val();
-		if ( email=="" ){ alert("Your email address is empty!"); $("#newsletter_email").focus(); }
-		else {
-			$.post("newsletter.send.php", { email:email }, function( result ){
-				
-				console.log( result );
-				
-				if ( result=="SUCCESS" ){
-					alert("Thank you. Your email is added to our database.");
-					setTimeout(function(){ $("#newsletter_email").val(""); }, 3000);
-				}
-				
-				else if ( result=="EXIST" ){
-					alert("Error. Your email address is already exist our database.");
-					$("#newsletter_email").focus();
-				}
-				
-				else {
-					alert("Error. Your email isn't added to our database.");
-					$("#newsletter_email").focus();
-				}
-				
-			});
-		}
-	
-	};
-	
-
 	//GOOGLE MAP
 	function init_map() {
+		console.log("init map called");
     var myOptions = {
         zoom: 14,
-        center: new google.maps.LatLng(40.801485408197856, -73.96745953467104), //change the coordinates
+        center: new google.maps.LatLng(37.784368, -122.397370), //change the coordinates
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
@@ -249,10 +217,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(40.801485408197856, -73.96745953467104) //change the coordinates
+        position: new google.maps.LatLng(37.784368, -122.397370) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>Evential 2014</b><br/>1571 Hidden Terrace<br/> New York"  //add your address
+        content: "<b>Automattic HQ</b><br/>132 Hawthorne St<br/> San Francisco"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);
