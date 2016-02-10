@@ -101,7 +101,8 @@ body {
 /* SPEAKER */
 
 #speakers {
-    background: #efefef;
+    background: #212121;
+    color: #ffffff;
 }
 
 .speaker figcaption {
@@ -128,7 +129,7 @@ body {
 }
 
 .speaker .title {
-    color: #888888;
+    color: #ffffff;
 }
 
 /* speaker detail popup */
