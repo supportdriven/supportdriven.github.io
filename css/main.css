@@ -150,12 +150,6 @@ h4 {
     margin-bottom: 30px;
 }
 
-.speaker h4 {
-    font-family: 'BebasNeue', sans-serif;
-    font-size: 3rem;
-    letter-spacing: 1px;
-}
-
 .speaker img {
     width: 100%;
     display: block;
@@ -225,6 +219,12 @@ h4 {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.speaker h4 {
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 
 .speaker .title {
