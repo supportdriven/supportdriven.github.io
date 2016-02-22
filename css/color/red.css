@@ -256,7 +256,8 @@ select {
 
 .button-light {
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: #e74c3c;
+    background: #ffffff;
 }
 
 .button-light:hover,

@@ -172,38 +172,6 @@ $(window).load(function(){
 
 });
 
-	// CONTACT FORM FUNCTION
-	var contact_send = function(){
-	
-	'use strict';
-	
-	var name  = $("#name").val();
-	var email = $("#email").val();
-	var phone = $("#phone").val();
-	var type  = $("#type").val();
-	
-		 if ( name=="" ){ alert("name area is empty!"); $("#name").focus(); }
-	else if ( email=="" ){ alert("email address area is empty!"); $("#email").focus(); }
-	else if ( phone=="" ){ alert("phone number area is empty!"); $("#phone").focus(); }
-	else if ( type=="" ){ alert("register type isn't selected!"); $("#type").focus(); }
-	else {
-		$.post("contact.send.php", { name:name, email:email, phone:phone, type:type }, function( result ){
-			if ( result=="SUCCESS" ){
-				alert("Your contact form is sent.");
-				setTimeout(function(){
-					$("#name").val("");
-					$("#email").val("");
-					$("#phone").val("");
-					$("#type").val("");
-				}, 3000);
-			} else {
-				alert("Your contact form isn't sent. Please check fields and try again.");
-			}
-		});
-	}
-
-};
-
 	//GOOGLE MAP
 	function init_map() {
 		console.log("init map called");
