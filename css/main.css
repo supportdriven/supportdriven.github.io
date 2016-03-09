@@ -328,33 +328,32 @@ h4 {
 /* REGISTER */
 
 #register {
-    padding: 70px 0;
-    /*background: url(../img/register-bg.png) center center no-repeat fixed;*/
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+	padding:70px 0;
+	background:url(../img/hawthorne.jpg) center center no-repeat fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
 }
 
-#register .lead {
-    font-size: 31px;
+#register .header {
+    text-align: center;
+    padding: 20px;
 }
 
-#register .timer {
-    font-size: 36px;
+#register .price {
+    font-size:61px;
+    font-weight:700;
+    margin-top:10px;
+    margin-bottom:10px;
+   	line-height:61px;
 }
 
-/* register form */
-
-#register-form {
-    padding: 25px;
+#register .title {
+    font-family: 'BebasNeue', sans-serif;
+    font-size:3rem;
 }
-
-#register-form h2 {
-    margin-bottom: 15px;
-}
-
-.register-form {
-    margin-top: 20px;
+#register .detail {
+    padding: 30px;
 }
 
 /* CONTACT */

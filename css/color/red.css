@@ -189,8 +189,42 @@ body {
 /* REGISTER */
 
 #register {
+	/*color:#ffffff;*/
+	/*background:#efefef;*/
+}
+
+#register h2 {
+    color:#e74c3c;
+}
+
+#register .header {
     color: #ffffff;
-    /*background:#efefef;*/
+    background-color:#e74c3c;
+}
+
+#register .header p {
+}
+
+#register .detail {
+    background-color:#FFFFFF;
+}
+
+.price-table-header {
+	color:#ffffff;
+	background:#e74c3c;
+}
+
+.price-table-description {
+	background:#ffffff;
+}
+
+.description-item {
+	color:#2e2e2e;
+}
+
+.price-table-description .stripe {
+	color:#ffffff;
+	background:#e74c3c;
 }
 
 /* CONTACT */
