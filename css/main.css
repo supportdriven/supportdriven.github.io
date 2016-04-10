@@ -39,7 +39,6 @@ h4 {
     margin-bottom: 5px;
 }
 
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -54,20 +53,20 @@ h4 {
 
 .navbar-custom {
     font-family: 'BebasNeue', sans-serif;
-    font-size: 12px;
+    font-size: 3rem;
     margin-bottom: 0;
     padding: 50px 0;
-}
-
-.navbar-brand {
-    padding: 0 15px;
-    line-height: 50px;
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+#get-tickets {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 4px;
 }
 
 .top-nav-collapse {

@@ -33,12 +33,18 @@ body {
     color: #ffffff;
 }
 
-.navbar-custom a {
+.navbar-custom .navbar-nav > li > a {
     color: #ffffff;
 }
 
+#get-tickets {
+    background-color: #FFFFFF;
+    color: #e74c3c;
+}
+
 .navbar-custom .navbar-nav > li > a:hover {
-    color: #aa2b1e;
+    /*color: #aa2b1e;*/
+    color: #ffffff;
 }
 
 .navbar-custom .navbar-toggle {
