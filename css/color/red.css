@@ -180,6 +180,15 @@ body {
     color: #999999;
 }
 
+/* ATTENDEES */
+#attendees {
+    background-color: #303030;
+}
+
+#attendees h3 {
+    color: white;
+}
+
 /* SUBSCRIBE */
 
 #subscribe h3 {
