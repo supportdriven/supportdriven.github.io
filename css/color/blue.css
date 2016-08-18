@@ -106,7 +106,8 @@ body {
 /* SPEAKER */
 
 #speakers {
-	background:#efefef;
+    background: #212121;
+    color: #ffffff;
 }
 
 .speaker figcaption {
@@ -124,12 +125,12 @@ body {
 
 .speaker a,
 .speaker .social a {
-	color:rgba(255, 255, 255, .75);
+	color:rgba(255, 255, 255, 1);
 }
 
 .speaker a:hover,
 .speaker .social a:hover{
-	color:rgba(255, 255, 255, 1);
+	color:rgba(52, 152, 219, 1);
 }
 
 .speaker .title {

@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    padding: 35px 0;
+    padding: 15px 0 15px;
 }
 
 h2 {
@@ -129,10 +129,6 @@ h4 {
 }
 
 /* DETAIL */
-#detail {
-    padding: 0;
-}
-
 #detail h3 {
     font-size: 2.2em;
     margin-bottom: 0;
@@ -313,7 +309,6 @@ h4 {
 /* SUBSCRIBE */
 
 #subscribe {
-    padding: 40px 0;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
