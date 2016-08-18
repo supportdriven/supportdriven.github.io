@@ -177,7 +177,7 @@ $(window).load(function(){
 		console.log("init map called");
     var myOptions = {
         zoom: 14,
-        center: new google.maps.LatLng(37.784368, -122.397370), //change the coordinates
+        center: new google.maps.LatLng(40.723644, -74.005460), //change the coordinates
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
@@ -185,10 +185,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(37.784368, -122.397370) //change the coordinates
+        position: new google.maps.LatLng(40.723644, -74.005460) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>Automattic HQ</b><br/>132 Hawthorne St<br/> San Francisco"  //add your address
+        content: "<b>Digital Ocean HQ</b><br/>101 6th Ave, 2nd Floor<br/> New York"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);
