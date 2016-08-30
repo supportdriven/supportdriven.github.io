@@ -39,6 +39,11 @@ body {
 	color:#ffffff;
 }
 
+#get-tickets {
+    background-color: #FFFFFF;
+    color: #e74c3c;
+}
+
 .navbar-custom .navbar-nav > li > a:hover {
 	color:#2980b9;
 }
@@ -97,9 +102,18 @@ body {
 	color:#3498db;
 }
 
+#overview .button-big {
+	background-color: #e74c3c;
+    color: #ffffff;
+}
 /* DETAIL */
 
 #detail h3 {
+	color:#3498db;
+}
+
+/* SUBSCRIBE */
+#subscribe h3 {
 	color:#3498db;
 }
 
@@ -129,14 +143,9 @@ body {
 }
 
 .speaker a:hover,
-.speaker .social a:hover{
+.speaker .social a:hover {
 	color:rgba(52, 152, 219, 1);
 }
-
-.speaker .title {
-	color:#888888;
-}
-
 
 /* speaker detail popup */
 
@@ -224,6 +233,14 @@ body {
 	color:#999999;
 }
 
+/* ATTENDEES */
+#attendees {
+    background-color: #303030;
+}
+
+#attendees h3 {
+    color: #3498db;
+}
 
 /* SUBSCRIBE */
 
@@ -250,8 +267,12 @@ body {
 /* REGISTER */
 
 #register {
-	color:#ffffff;
-	/*background:#efefef;*/
+	color:#3498db;
+	/*background:#3498db;*/
+}
+
+#register .tito-wrapper {
+	background:#ffffff;
 }
 
 .price-table-header {

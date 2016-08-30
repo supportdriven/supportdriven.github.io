@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    padding: 15px 0 15px;
+    padding: 30px 0;
 }
 
 h2 {
@@ -323,7 +323,7 @@ h4 {
 
 #register {
 	padding:70px 0;
-	background:url(../img/hawthorne.jpg) center center no-repeat fixed;
+	background:url(../img/chat.jpg) center center no-repeat fixed;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
