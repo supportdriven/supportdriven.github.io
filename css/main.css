@@ -302,6 +302,11 @@ h4 {
     font-size: 3.2rem;
 }
 
+#sponsors img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* ATTENDEES */
 
 
