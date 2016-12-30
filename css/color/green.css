@@ -22,6 +22,40 @@
 		- Preload	
 */
 
+#overview .button-big {
+	background-color: #e74c3c;
+    color: #ffffff;
+}
+
+#detail h3 {
+    color: #065C00;
+}
+
+#get-tickets {
+    background-color: #FFFFFF;
+    color: #e74c3c;
+}
+
+#subscribe h3 {
+	color:#065C00;
+}
+
+#attendees {
+    background-color: #303030;
+}
+
+#attendees h3 {
+    color: #065C00;
+}
+
+#previous {
+	background-color: #303030;
+	color: #FFFFFF;
+}
+
+#register .tito-wrapper {
+	background:#ffffff;
+}
 
 /* CORE CSS */
 
@@ -49,11 +83,11 @@ body {
 }
 
 .top-nav-collapse {
-	background-color: #00a99d;
+	background-color: #065C00;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-	background:#00a99d;
+	background:#065C00;
 }
 
 
@@ -87,7 +121,7 @@ body {
 }
 
 #overview i {
-	color:#00a99d;
+	color:#065C00;
 }
 
 #overview .lead {
@@ -95,7 +129,7 @@ body {
 }
 
 #overview .fa-circle {
-	color:#00a99d;
+	color:#065C00;
 }
 
 
@@ -141,11 +175,11 @@ body {
 }
 
 #speaker-detail h3 {
-	color:#00a99d;
+	color:#065C00;
 }
 
 #speaker-detail a {
-	color:#00a99d;
+	color:#065C00;
 }
 
 #speaker-detail i {
@@ -156,12 +190,12 @@ body {
 /* SCHEDULE */
 
 .event h3 {
-	color:#00a99d;
+	color:#065C00;
 }
 
 .event .icon {
 	color:#ffffff;
-	background:#00a99d;
+	background:#065C00;
 }
 
 .event .description {
@@ -179,7 +213,7 @@ body {
 #days .item:hover,
 #days .item:active {
 	color:#ffffff;
-	background:#00a99d;
+	background:#065C00;
 }
 
 /* VENUE */
@@ -190,7 +224,7 @@ body {
 }
 
 #venue h3 {
-	color:#00a99d;
+	color:#065C00;
 }
 
 #venue .venue-address h2 {
@@ -198,7 +232,7 @@ body {
 }
 
 #venue i {
-	color:#00a99d;
+	color:#065C00;
 }
 
 #venue .fa-inverse {
@@ -239,7 +273,7 @@ body {
 }
 
 #faq i {
-	color:#00a99d;
+	color:#065C00;
 }
 
 /* REGISTER */
@@ -251,7 +285,7 @@ body {
 
 .price-table-header {
 	color:#ffffff;
-	background:#00a99d;
+	background:#065C00;
 }
 
 .price-table-description {
@@ -264,7 +298,7 @@ body {
 
 .price-table-description .stripe {
 	color:#ffffff;
-	background:#00a99d;
+	background:#065C00;
 }
 
 
@@ -279,11 +313,11 @@ body {
 
 .contact {
 	color:#ffffff;
-	background:rgba(0, 169, 157, 0.85);
+	background:rgba(6, 92, 0, 0.85);
 }
 
 .social .fa-inverse {
-	color:#00a99d;
+	color:#065C00;
 }
 
 .social a {
@@ -337,13 +371,13 @@ select {
 
 .button-light:hover,
 .button-light:active {
-	color: #00a99d;
+	color: #065C00;
 	background: #ffffff;
 }
 
 .button-dark {
 	color: #ffffff;
-	background:#00a99d;
+	background:#065C00;
 }
 
 .button-dark:hover,
@@ -363,11 +397,11 @@ select {
   border-top: 1.1em solid rgba(255, 255, 255, 0.2);
   border-right: 1.1em solid rgba(255, 255, 255, 0.2);
   border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
-  border-left: 1.1em solid #00a99d;
+  border-left: 1.1em solid #065C00;
 }
 
 
 /* magnific popup */
 .mfp-bg {
-	background:#00a99d;
+	background:#065C00;
 }

@@ -176,8 +176,8 @@ $(window).load(function(){
 	function init_map() {
 		console.log("init map called");
     var myOptions = {
-        zoom: 14,
-        center: new google.maps.LatLng(40.723644, -74.005460), //change the coordinates
+        zoom: 15,
+        center: new google.maps.LatLng(47.6006284, -122.331191), //change the coordinates
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
@@ -185,10 +185,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(40.723644, -74.005460) //change the coordinates
+        position: new google.maps.LatLng(47.600628, -122.331191) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>Digital Ocean HQ</b><br/>101 6th Ave, 2nd Floor<br/> New York"  //add your address
+        content: "<b>ImpactHub</b><br/>220 Second Ave South<br/> Seattle, WA 98104"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);
