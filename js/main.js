@@ -136,7 +136,15 @@ jQuery(document).ready(function($) {
 		navigation : true,
 		navigationText : ['<i class="fa fa-3x fa-chevron-circle-left"></i>','<i class="fa fa-3x  fa-chevron-circle-right"></i>'],
 	});
-	
+    $("#attending").owlCarousel({
+
+  		pagination : false,
+  		slideSpeed : 300,
+  		paginationSpeed : 400,
+  		singleItem:true,
+  		navigation : true,
+  		navigationText : ['<i class="fa fa-3x fa-chevron-circle-left"></i>','<i class="fa fa-3x  fa-chevron-circle-right"></i>'],
+  	});
 	
 	//FIX HOVER EFFECT ON IOS DEVICES
 	document.addEventListener("touchstart", function(){}, true);
