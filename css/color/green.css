@@ -163,7 +163,8 @@ body {
 }
 
 .speaker .title {
-	color:#888888;
+	/*color:#888888;*/
+	color:black;
 }
 
 
