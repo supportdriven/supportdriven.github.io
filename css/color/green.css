@@ -48,6 +48,14 @@
 	color: #FFFFFF;
 }
 
+.speaker .company {
+	color: #383838;
+}
+
+.speaker .title {
+	color: black;
+}
+
 #previous {
 	background-color: #303030;
 	color: #FFFFFF;
@@ -136,7 +144,7 @@ body {
 /* SPEAKER */
 
 #speakers {
-	background:#efefef;
+	background:white;
 }
 
 .speaker figcaption {
