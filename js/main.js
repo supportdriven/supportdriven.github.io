@@ -14,31 +14,31 @@ jQuery(document).ready(function($) {
 	 
 	  
 	//COUNTDOWN TIMER
-	var newYear = new Date(); 
-    newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
-    $('#countdown').countdown({until: new Date(2014, 12-1, 18)}); // enter event day
-    
-    $('#removeCountdown').toggle(
-        function() {
-            $(this).text('Re-attach'); 
-            $('#defaultCountdown').countdown('destroy'); 
-        }, 
-        function() { 
-            $(this).text('Remove'); 
-            $('#defaultCountdown').countdown({until: newYear}); 
-        }
-    );
+	//var newYear = new Date();
+    //newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1);
+    //$('#countdown').countdown({until: new Date(2014, 12-1, 18)}); // enter event day
+    //
+    //$('#removeCountdown').toggle(
+     //   function() {
+     //       $(this).text('Re-attach');
+     //       $('#defaultCountdown').countdown('destroy');
+     //   },
+     //   function() {
+     //       $(this).text('Remove');
+     //       $('#defaultCountdown').countdown({until: newYear});
+     //   }
+    //);
 	  
 	//MILESTONE
-    $('.timer').countTo();
+    //$('.timer').countTo();
 	
 	
 	//MAGNIFIC POPUP LOAD CONTENT VIA AJAX
-	$('.speaker-detail').magnificPopup({type: 'ajax'});
-	$('.register').magnificPopup({type: 'ajax'});	
+	//$('.speaker-detail').magnificPopup({type: 'ajax'});
+	//$('.register').magnificPopup({type: 'ajax'});
  	
 	//MAGNIFIC POPUP IMAGE
-	$('.image-link').magnificPopup({type:'image'});	
+	//$('.image-link').magnificPopup({type:'image'});
 	
 	//OWLCAROUSEL SCHEDULE
 	var timetable = $("#timetable");
