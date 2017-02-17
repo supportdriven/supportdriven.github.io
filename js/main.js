@@ -166,8 +166,9 @@ $(window).load(function(){
     
 	
     //PRELOADER
-    $('#preload').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-	
+    //$('#preload').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('#preload').fadeOut('fast'); // will fade out the white DIV that covers the website.
+
 	
 	//HEADER ANIMATION
 	$(window).scroll(function() {
@@ -182,7 +183,6 @@ $(window).load(function(){
 
 	//GOOGLE MAP
 	function init_map() {
-		console.log("init map called");
     var myOptions = {
         zoom: 15,
         center: new google.maps.LatLng(47.6006284, -122.331191), //change the coordinates
