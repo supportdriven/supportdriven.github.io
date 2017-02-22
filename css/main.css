@@ -390,7 +390,11 @@ h4 {
 
 /* ATTENDEES */
 
-
+#attending td {
+    border: 1px solid white;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+}
 
 /* SUBSCRIBE */
 
