@@ -184,8 +184,8 @@ $(window).load(function(){
 	//GOOGLE MAP
 	function init_map() {
     var myOptions = {
-        zoom: 15,
-        center: new google.maps.LatLng(47.6006284, -122.331191), //change the coordinates
+        zoom: 14,
+        center: new google.maps.LatLng(33.848857, -84.377204), //change the coordinates
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: false,
 		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
@@ -193,10 +193,10 @@ $(window).load(function(){
     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(47.600628, -122.331191) //change the coordinates
+        position: new google.maps.LatLng(33.848857, -84.377204) //change the coordinates
     });
     infowindow = new google.maps.InfoWindow({
-        content: "<b>ImpactHub</b><br/>220 Second Ave South<br/> Seattle, WA 98104"  //add your address
+        content: "<b>Atlanta Tech Village</b><br/>3423 Piedmont Rd NE<br/> Atlanta GA 30305"  //add your address
     });
     google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);

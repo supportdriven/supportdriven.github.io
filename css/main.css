@@ -43,6 +43,11 @@ h4 {
     text-transform: uppercase;
 }
 
+.inline {
+    padding: 0;
+    display: inline;
+}
+
 /* NAVIGATION */
 
 .navbar {
@@ -126,6 +131,7 @@ h4 {
 
 #overview .lead {
     letter-spacing: 0;
+    text-align: left;
 }
 
 /* DETAIL */
@@ -137,6 +143,13 @@ h4 {
 #detail h4 {
     margin-top: 0;
     margin-bottom: 12px;
+}
+
+
+/* TALKS */
+#talks h3 {
+    font-size: 2.2em;
+    margin-bottom: 0;
 }
 
 /* SPEAKER */

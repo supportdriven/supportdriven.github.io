@@ -21,6 +21,63 @@
 		- Preload	
 */
 
+.button-green:link,
+.button-green:visited {
+    color: #ffffff;
+    background: #065C00;
+}
+
+.button-green:hover,
+.button-green:active {
+    text-decoration: none;
+    color: #ffffff;
+    background: #065C00;
+}
+
+#overview .button-big {
+	background-color: #e74c3c;
+    color: #ffffff;
+}
+
+#detail h3 {
+    color: #065C00;
+}
+
+#get-tickets {
+    background-color: #FFFFFF;
+    color: #e74c3c;
+}
+
+#subscribe h3 {
+	color:#065C00;
+}
+
+#attendees {
+    background-color: #303030;
+	color: white;
+}
+
+#attendees h3 {
+	color: #FFFFFF;
+}
+
+.speaker .company {
+	color: #383838;
+}
+
+.speaker .title {
+	color: black;
+}
+
+#previous {
+	background-color: #303030;
+	color: #FFFFFF;
+}
+
+#register .tito-wrapper {
+	background:#ffffff;
+}
+
 /* CORE CSS */
 
 body {
@@ -104,6 +161,11 @@ body {
     color: #e74c3c;
 }
 
+/* TALKS */
+
+#talks h3 {
+    color: #e74c3c;
+}
 /* SPEAKER */
 
 #speakers {
@@ -197,8 +259,12 @@ body {
 
 /* SUBSCRIBE */
 
+#subscribe {
+    background-color: #303030;
+}
+
 #subscribe h3 {
-    color: #999999;
+    color: #fff;
 }
 
 /* REGISTER */
