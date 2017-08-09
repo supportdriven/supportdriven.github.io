@@ -426,7 +426,7 @@ h4 {
 
 #register {
 	padding:70px 0;
-	background:url(../img/chat.jpg) center center no-repeat fixed;
+	/*background:url(../img/chat.jpg) center center no-repeat fixed;*/
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

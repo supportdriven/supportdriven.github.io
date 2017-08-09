@@ -35,7 +35,7 @@
 }
 
 #overview .button-big {
-	background-color: #e74c3c;
+    background-color: #e74c3c;
     color: #ffffff;
 }
 
@@ -49,33 +49,37 @@
 }
 
 #subscribe h3 {
-	color:#065C00;
+    color: #065C00;
 }
 
 #attendees {
     background-color: #303030;
-	color: white;
+    color: white;
 }
 
 #attendees h3 {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .speaker .company {
-	color: #383838;
+    color: #383838;
 }
 
 .speaker .title {
-	color: black;
+    color: black;
 }
 
 #previous {
-	background-color: #303030;
-	color: #FFFFFF;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#register {
+    background-color: #303030;
 }
 
 #register .tito-wrapper {
-	background:#ffffff;
+    background: #ffffff;
 }
 
 /* CORE CSS */
@@ -166,6 +170,7 @@ body {
 #talks h3 {
     color: #e74c3c;
 }
+
 /* SPEAKER */
 
 #speakers {
@@ -270,42 +275,42 @@ body {
 /* REGISTER */
 
 #register {
-	/*color:#ffffff;*/
-	/*background:#efefef;*/
+    /*color:#ffffff;*/
+    /*background:#efefef;*/
 }
 
 #register h2 {
-    color:#e74c3c;
+    color: #e74c3c;
 }
 
 #register .header {
     color: #ffffff;
-    background-color:#e74c3c;
+    background-color: #e74c3c;
 }
 
 #register .header p {
 }
 
 #register .detail {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .price-table-header {
-	color:#ffffff;
-	background:#e74c3c;
+    color: #ffffff;
+    background: #e74c3c;
 }
 
 .price-table-description {
-	background:#ffffff;
+    background: #ffffff;
 }
 
 .description-item {
-	color:#2e2e2e;
+    color: #2e2e2e;
 }
 
 .price-table-description .stripe {
-	color:#ffffff;
-	background:#e74c3c;
+    color: #ffffff;
+    background: #e74c3c;
 }
 
 /* CONTACT */
