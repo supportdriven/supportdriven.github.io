@@ -62,11 +62,11 @@
 }
 
 .speaker .company {
-    color: #383838;
+	color: #383838;
 }
 
 .speaker .title {
-    color: black;
+	color: black;
 }
 
 #previous {
@@ -165,17 +165,16 @@ body {
     color: #e74c3c;
 }
 
-/* TALKS */
+/* THEMES */
 
-#talks h3 {
+#themes h3 {
     color: #e74c3c;
 }
 
 /* SPEAKER */
 
 #speakers {
-    background: #212121;
-    color: #ffffff;
+    background: white;
 }
 
 .speaker figcaption {
@@ -199,10 +198,6 @@ body {
 .speaker a:hover,
 .speaker .social a:hover {
     color: rgba(255, 255, 255, 1);
-}
-
-.speaker .title {
-    color: #ffffff;
 }
 
 /* speaker detail popup */
