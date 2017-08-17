@@ -169,6 +169,7 @@ h4 {
     display: table;
     width: 100%;
     clip-path: circle(100px at center);
+    -webkit-clip-path: circle(100px at center);
 }
 
 .speaker figcaption {
