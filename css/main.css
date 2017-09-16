@@ -164,12 +164,13 @@ h4 {
 }
 
 .speaker figure {
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     display: table;
     width: 100%;
-    clip-path: circle(100px at center);
-    -webkit-clip-path: circle(100px at center);
+    margin-top: 20px;
+    clip-path: circle(120px at center);
+    -webkit-clip-path: circle(120px at center);
 }
 
 .speaker figcaption {
